@@ -26,7 +26,6 @@
   "git": {
     "scripts": {
       "pre-commit": "yarn build",
-      "post-commit": "yarn publish"
     }
   }
 }
