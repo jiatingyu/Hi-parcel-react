@@ -6,7 +6,7 @@
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html",
-    "publish": "surge ./dist five-plus.surge.sh"
+    "deploy": "surge ./dist five-plus.surge.sh"
   },
   "keywords": [],
   "author": "",
@@ -26,7 +26,7 @@
   "git": {
     "scripts": {
       "pre-commit": "yarn build",
-      "post-commit": "yarn publish"
+      "post-commit": "yarn deploy"
     }
   }
 }
