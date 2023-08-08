@@ -1,0 +1,30 @@
+{
+  "name": "Hi-parcel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "git-scripts": "^0.6.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "react": "16",
+    "react-dom": "16"
+  },
+  "git": {
+    "scripts": {
+      "pre-commit": "yarn build"
+    }
+  }
+}
